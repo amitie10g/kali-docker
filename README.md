@@ -67,7 +67,7 @@ Images are pushed weekly, monday at 12:00 UTC, leaving a margin for pushing imag
 
 ## Usage
 
-* Just download ``docker-compose.yml``, place at an empty directory, and run ``docker-compose up -d``. This will start the ``latest`` and ``labs`` containers (if you use Windows, be sure to use another RDP port like 13389 to avoid conflicts with the local RDP port).
+* Just download [``docker-compose.yml``](https://raw.githubusercontent.com/amitie10g/docker-kali/refs/heads/main/docker-compose.yml), place at an empty directory, and run ``docker-compose up -d``. This will start the ``latest`` and ``labs`` containers (if you use Windows, be sure to use another RDP port like 13389 to avoid conflicts with the local RDP port).
 
 * Access the shell: ``docker exec -it --user kali desktop bash`` (omit ``--user kali`` to acces as root).
 
