@@ -16,6 +16,7 @@ services:
     container_name: vulnerable
     image: ghcr.io/amitie10g/kali-rolling:labs
     restart: always
-    ports:
-      - 42000:42000
-      - 42001:42001
+    # Uncomment ports if you want to access from the host
+    #ports:
+    #  - 42000:42000
+    #  - 42001:42001
