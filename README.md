@@ -71,7 +71,7 @@ Images are pushed weekly, monday at 12:00 UTC, leaving a margin for pushing imag
 
 * Access the shell: ``docker exec -it --user kali desktop bash`` (omit ``--user kali`` to acces as root).
 
-* Connect to the desktop environment using your Remote Desktop client. Available users are ``root`` and ``kali`` (password is ``kali`` for both). Just use ``root`` username.
+* Connect to the desktop environment using your Remote Desktop client. Available users are ``root`` and ``kali`` (password is ``kali`` for both). Just use the ``root`` username.
 
 * Inside the Desktop environment, browse the vulnerable webapps at the Vulnerable container:
   * http://vulnerable:42000 OWASP Juice Shop.
