@@ -27,6 +27,9 @@ RUN adduser --quiet --add_extra_groups --disabled-password --gecos \"\" kali && 
     apt-get clean && \
     cd /tmp/kalitorify && make install
 
+# Setup Volumes
+VOLUME /root /home/kali
+
 # Desktop
 FROM base-build AS desktop-build
 RUN apt-get install -y kali-desktop-xfce xrdp dbus-x11 && apt-get clean
