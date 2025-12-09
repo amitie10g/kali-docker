@@ -8,15 +8,17 @@ services:
       - NET_RAW
     ports:
       - 13389:3389
-    volumes:
-      - ./kali/kali:/home/kali
-      - ./kali/root:/root
+    # Uncomment in you want the volumes to be mounted
+    # at the host rather than the volumes directory
+    #volumes:
+    #  - ./kali/kali:/home/kali
+    #  - ./kali/root:/root
 
   vulnerable-webapps:
     container_name: vulnerable
     image: ghcr.io/amitie10g/kali-rolling:labs
     restart: always
-    # Uncomment ports if you want to access from the host
+    # Uncomment if you want to access from the host
     #ports:
     #  - 42000:42000
     #  - 42001:42001
