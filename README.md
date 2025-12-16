@@ -9,7 +9,7 @@ Images are pushed weekly, monday at 12:00 UTC, leaving a margin for pushing imag
 
 * ``upstream`` the base image built with the [Phusion's base image](https://github.com/phusion/baseimage-docker) project modifications
 
-* ``base`` Image with basic tools, TOR, and kalitorify (forked from the upstream repo to add Dockerfile and pull requests)
+* ``base`` Image with basic tools, TOR, and kalitorify (experimental, forked from the upstream repo to add Dockerfile, and some tweaks to work within runit)
   * ``nano``
   * ``lynx`` 
   * ``tor``
