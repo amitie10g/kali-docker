@@ -3,3 +3,4 @@ Dockerfile*
 img
 cache
 Makefile
+README.md
