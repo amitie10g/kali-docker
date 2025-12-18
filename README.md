@@ -19,6 +19,7 @@ Images are pushed weekly, monday at 12:00 UTC, leaving a margin for pushing imag
 
 * ``desktop`` Base desktop (XFCE) without further tools. Includes Firefox
   * [``kali-desktop-xfce``](https://www.kali.org/tools/kali-meta/#kali-desktop-xfce)
+  *  [``firefox-esr``](https://pkg.kali.org/pkg/firefox-esr)
   * ``xrdp``
   * ``dbus-x11``
 
